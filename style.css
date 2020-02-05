@@ -7,10 +7,10 @@ body {
 
 h1 {
   font-style: italic;
-  color: #373fff;
+  color: #42f545;
 }
 
 .row1 {
   length: 300px;
-  background: red;
+    background-color: #42f545;
 }

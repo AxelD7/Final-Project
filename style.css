@@ -3,6 +3,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  background-color: green;
 }
 
 h1 {
@@ -12,11 +13,8 @@ h1 {
 .row1 {
   length: 300px;
 }
-
-.main {
-  background-color: #42f545;
-}
-
-#title {
-  background: white;
+#main {
+  width: 33%;
+  height:100%;
+  position: center;
 }

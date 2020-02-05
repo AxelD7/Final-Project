@@ -3,14 +3,19 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  background-color: #42f545;
 }
 
 h1 {
   font-style: italic;
-  color: #42f545;
+  color: #373fff;
 }
 
 .row1 {
   length: 300px;
-    background-color: #42f545;
+  background: red;
+}
+
+.main{
+  background-color: #42f545;
 }

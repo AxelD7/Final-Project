@@ -1,12 +1,9 @@
 /* CSS files add styling rules to your content */
 
-body {
+#calc {
+  box-sizing: border-box;
   font-family: 'Fira Sans', sans-serif;
-  margin: 2em;
-}
-
-h1 {
-  font-style: italic;
+  font-weight: normal;
 }
 
 .row1 {
@@ -22,16 +19,9 @@ h1 {
   text-align:center;
 }
 
-#allButtons {
-  box-sizing: border-box;
-  font-family: 'Fira Sans', sans-serif;
-}
 
 .calculator-grid {
   display: grid;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(120px, auto) repeat(5, 100px)
 }

@@ -15,8 +15,8 @@ class Calculator {
   delete() {
     
   }
-  appendNumber(number) {
-    this.currentOperand = number
+  appendNumber(num) {
+    this.currentOperand = num
   }
   
   chooseOperation(operation) {
@@ -46,6 +46,6 @@ const calculator = new Calculator(previousOperandText, currentOperandText)
 numbButtons.forEach(button => {
   button.addEventListener('click', () => {
     calculator.appendNumber(button.innerText)
-    calculator.updateDisplay
+    calculator.updateDisplay()
   })
 })

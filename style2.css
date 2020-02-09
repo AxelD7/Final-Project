@@ -1,7 +1,5 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: normal;
+body {
+  
 }
 
 .calculator-grid {
@@ -11,6 +9,15 @@
   min-height: 100vh;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: normal;
+  margin: auto;
+  width: 75%;
+  height: 500;
+  border: 3px solid green;
+  padding: 10px;
+  text-align:center;
 }
 
 .calculator-grid > button {
@@ -25,5 +32,13 @@
 }
 
 .output {
-  grid
+  grid-column: 1 / -1;
+  background-color: grey;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap:break-word;
+  word-break: break-all;
 }

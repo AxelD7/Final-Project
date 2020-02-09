@@ -13,7 +13,7 @@ body {
   font-family: 'Fira Sans', sans-serif;
   font-weight: normal;
   margin: auto;
-  width: 75%;
+  width: 70%;
   height: 500;
   border: 3px solid green;
   padding: 10px;
@@ -41,4 +41,13 @@ body {
   padding: 10px;
   word-wrap:break-word;
   word-break: break-all;
+}
+
+.output .previous-operand {
+  color: white;
+  font-size:1.5rem;
+}
+.output .current-operand {
+  color: black;
+  font-size:1.5rem;
 }

@@ -26,3 +26,10 @@ h1 {
   box-sizing: border-box;
   font-family: 'Fira Sans', sans-serif;
 }
+
+.calculator-grid{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

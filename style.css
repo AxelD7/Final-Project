@@ -22,7 +22,7 @@ h1 {
   text-align:center;
 }
 
-*, *::before, *::after {
+#allButtons {
   box-sizing: border-box;
   font-family: 'Fira Sans', sans-serif;
 }

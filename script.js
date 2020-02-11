@@ -33,13 +33,13 @@ class Calculator {
 }
 
 //created constants for each number/operation/action/ and connected them with each of the buttons on html
-const numbButtons = document.querySelectorAll('num')
-const operationButtons = document.querySelectorAll('operations')
-const equalButton = document.querySelector('equals')
-const deleteButton = document.querySelector('delete')
-const clearButton = document.querySelector('clear')
-const previousOperandText = document.querySelector('previous-operand')
-const currentOperandText = document.querySelector('current-operand')
+const numbButtons = document.querySelectorAll('[data-number]')
+const operationButtons = document.querySelectorAll('[data-operation]')
+const equalButton = document.querySelector('[data-equal]')
+const deleteButton = document.querySelector('[data-delete]')
+const clearButton = document.querySelector('[data-clear]')
+const previousOperandText = document.querySelector('[data-previous-operand]')
+const currentOperandText = document.querySelector('[data-current-operand]')
 
 const calculator = new Calculator(previousOperandText, currentOperandText)
 

@@ -1,10 +1,5 @@
 /* CSS files add styling rules to your content */
 
-#calc {
-  box-sizing: border-box;
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: normal;
-}
 
 .row1 {
   length: 300px;
@@ -19,7 +14,16 @@
   padding: 10px;
   text-align:center;
 }
-
+.wip {
+ font-family: 'Fira Sans', sans-serif;
+  background-color:white;
+  margin: auto;
+  width: 75%;
+  height: 500;
+  border: 3px solid green;
+  padding: 10px;
+  text-align:center;
+}
 
 .calculator-grid {
   display: grid;
